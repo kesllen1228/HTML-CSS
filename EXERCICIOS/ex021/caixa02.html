@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102,102, 102);
+            padding: 3px;
+            box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.726);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 90px;
+            text-align: center;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: white;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--cabeçalho-->
+    <header>
+        <h1>meu site</h1>
+        <!--menu de navegação-->
+        <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        </nav>
+    </header>
+    <!--parte princpal-->
+    <main>
+        <!--seletor de sessão-->
+        <section id="assuntos">
+        <section id="noticias">
+
+            <article>
+                <h2>noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus, aliquid voluptates commodi laborum voluptatibus similique blanditiis ex repellat excepturi ratione nesciunt id nihil tenetur dolorem laudantium culpa quibusdam unde.</p>
+                <aside>
+                    <p>Artigo feito por josé da silva</p>
+                </aside>
+            </article>
+
+        </section>
+        </section>
+    </main>
+    <!--rodapé do site-->
+    <footer>
+        <p>desenvolvido pelo kesllen</p>
+    </footer>
+</body>
+</html>
