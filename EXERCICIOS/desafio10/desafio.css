@@ -54,7 +54,7 @@ header > h1 {
 header > p {
     color: white;
     font-family: var(--font-padrão);
-    font-size: 1.2em;
+    font-size: 1.0em;
     max-width: 500px;
     padding-right: 10px;
     padding-left: 10px;
@@ -181,7 +181,7 @@ footer {
     color: white;
     background-color: var(--cor5);
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding: 5px;
 }
 footer a {
